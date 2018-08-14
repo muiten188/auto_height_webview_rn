@@ -64,7 +64,7 @@ export default class AutoHeightWebView extends PureComponent {
     super(props);
     const { enableAnimation, style } = props;
     enableAnimation && (this.opacityAnimatedValue = new Animated.Value(0));
-    this.webView = React.createRef();
+    //this.webView = React.createRef();
     this.state = {
       isSizeChanged: false,
       width: getWidth(style),
